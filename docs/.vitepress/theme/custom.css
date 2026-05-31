@@ -1,0 +1,71 @@
+/* 自定义样式修复 */
+:root {
+  --vp-c-brand-1: #3b82f6;
+  --vp-c-brand-2: #2563eb;
+  --vp-c-brand-3: #1d4ed8;
+}
+
+/* 确保基础样式加载 */
+.VPContent {
+  background-color: var(--vp-c-bg);
+}
+
+/* 修复图片和图标显示 */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 修复代码块样式 */
+.vp-doc pre {
+  background-color: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+}
+
+/* 修复表格样式 */
+.vp-doc table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.vp-doc th,
+.vp-doc td {
+  border: 1px solid var(--vp-c-divider);
+  padding: 12px;
+}
+
+/* 修复链接样式 */
+.vp-doc a {
+  color: var(--vp-c-brand-1);
+}
+
+/* 修复导航栏样式 */
+.VPNavBar {
+  background-color: var(--vp-c-bg);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+/* 修复侧边栏样式 */
+.VPSidebar {
+  background-color: var(--vp-c-bg);
+  border-right: 1px solid var(--vp-c-divider);
+}
+
+/* 确保内容区域正常显示 */
+.VPDoc {
+  padding: 32px 24px 96px;
+}
+
+@media (min-width: 768px) {
+  .VPDoc {
+    padding: 48px 32px 128px;
+  }
+}
+
+/* 修复移动端样式 */
+@media (max-width: 767px) {
+  .VPDoc {
+    padding: 24px 16px 96px;
+  }
+}

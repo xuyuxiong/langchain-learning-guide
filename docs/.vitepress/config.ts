@@ -4,6 +4,14 @@ export default defineConfig({
   title: 'LangChain 全家桶学习指南',
   description: '从零到一掌握 LangChain 生态全链路，构建生产级 LLM 应用',
   
+  base: '/langchain-learning-guide/',
+  
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/langchain-learning-guide/logo.svg' }],
+    ['meta', { name: 'theme-color', content: '#3b82f6' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }]
+  ],
+  
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
@@ -200,6 +208,17 @@ export default defineConfig({
       copyright: 'Copyright © 2026 LangChain 全家桶学习指南'
     }
   },
+  
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `@import "vitepress/theme/styles/vars.scss";`
+        }
+      }
+    }
+  },
+  
   mermaid: {
     theme: 'default',
     themeVariables: {
@@ -235,5 +254,4 @@ export default defineConfig({
       clusterBorder: '#cbd5e1',
     },
   },
-
 })
