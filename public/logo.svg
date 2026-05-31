@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="32" height="32">
+  <defs>
+    <linearGradient id="chainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4285f4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Left chain link -->
+  <path d="M35 20 C25 20, 25 35, 35 35 L40 35 C45 35, 45 50, 35 50 C25 50, 25 65, 35 65" 
+        fill="none" stroke="url(#chainGradient)" stroke-width="8" stroke-linecap="round"/>
+  <!-- Right chain link -->
+  <path d="M55 35 C65 35, 65 50, 55 50 L50 50 C45 50, 45 65, 55 65 C65 65, 65 80, 55 80" 
+        fill="none" stroke="url(#chainGradient)" stroke-width="8" stroke-linecap="round"/>
+  <!-- Connection points -->
+  <circle cx="35" cy="20" r="3" fill="#1a73e8"/>
+  <circle cx="35" cy="65" r="3" fill="#1a73e8"/>
+  <circle cx="55" cy="35" r="3" fill="#1a73e8"/>
+  <circle cx="55" cy="80" r="3" fill="#1a73e8"/>
+</svg>
