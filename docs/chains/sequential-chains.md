@@ -750,4 +750,4 @@ parallel_chain = RunnableParallel(
 - [路由链](./router-chain.md) - 条件分支处理
 - [迁移到 LCEL](./migrate-to-lcel.md) - Legacy 迁移指南
 - [Chain 基础](./chain-basics.md) - Chain 概念回顾
-- [LCEL 基础](../lcel/) - LCEL 详细教程
+- [LCEL 基础](../lcel/lcel-basics.md) - LCEL 详细教程

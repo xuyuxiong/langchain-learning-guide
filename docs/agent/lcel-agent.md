@@ -703,6 +703,6 @@ executor = AgentExecutor(agent=agent, tools=tools, **agent_config)
 ## 继续学习
 
 - [Chain 基础](../chains/chain-basics.md) - 理解 Chain 概念
-- [LCEL 入门](../lcel/) - LCEL 完整教程
-- [LangGraph 入门](../langgraph/) - 新一代 Agent 框架
+- [LCEL 入门](../lcel/lcel-basics.md) - LCEL 完整教程
+- [LangGraph 入门](../langgraph/langgraph-basics.md) - 新一代 Agent 框架
 - [Agent 执行器](./agent-executor.md) - AgentExecutor 详解

@@ -633,4 +633,4 @@ print(f"提升：{(legacy_time - lcel_time) / legacy_time * 100:.1f}%")
 - [Chain 基础](./chain-basics.md) - Chain 概念回顾
 - [顺序链](./sequential-chains.md) - 顺序链实践
 - [路由链](./router-chain.md) - 路由链实践
-- [LCEL 基础](../lcel/) - LCEL 完整教程
+- [LCEL 基础](../lcel/lcel-basics.md) - LCEL 完整教程

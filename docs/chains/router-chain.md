@@ -681,4 +681,4 @@ def debug_router(inputs):
 - [迁移到 LCEL](./migrate-to-lcel.md) - 完整迁移指南
 - [顺序链](./sequential-chains.md) - 顺序链详解
 - [Chain 基础](./chain-basics.md) - Chain 概念回顾
-- [LCEL 基础](../lcel/) - LCEL 详细教程
+- [LCEL 基础](../lcel/lcel-basics.md) - LCEL 详细教程

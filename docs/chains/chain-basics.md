@@ -654,4 +654,4 @@ def process(state: ChainInput) -> ChainOutput:
 - [顺序链](./sequential-chains.md) - 多步骤顺序执行
 - [路由链](./router-chain.md) - 条件分支处理
 - [迁移到 LCEL](./migrate-to-lcel.md) - 完整迁移指南
-- [LCEL 基础](../lcel/) - LCEL 详细教程
+- [LCEL 基础](../lcel/lcel-basics.md) - LCEL 详细教程
