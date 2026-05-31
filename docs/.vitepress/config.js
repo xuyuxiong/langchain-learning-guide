@@ -4,6 +4,7 @@ import { withMermaid } from 'vitepress-plugin-mermaid';
 export default withMermaid({
   title: 'LangChain 全家桶学习指南',
   description: '从零到一掌握 LangChain 生态全链路，构建生产级 LLM 应用',
+  base: '/langchain-learning-guide/',
 
   themeConfig: {
     logo: '/logo.svg',
